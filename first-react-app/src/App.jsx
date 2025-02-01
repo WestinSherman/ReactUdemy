@@ -1,13 +1,17 @@
 import './App.css'
 import Chicken from './Chicken';
 import Greeter from './Greeter';
+import Die from './Die';
 
 function App() {
   return (
     <div>
-      <Greeter person="Bill" />
+      <Greeter person="Bill" from="Timmy" />
       <Greeter person="Ted" />
-      <Greeter person="Rosa" />
+      <Greeter from="Anne" />
+      <Die numSides={20} />
+      <Die numSides={6} />
+      <Die numSides={10} />
     </div>
   );
 };
