@@ -4,20 +4,23 @@ import Greeter from './Greeter';
 import Die from './Die';
 import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
+import Heading from './Heading';
 
 function App() {
   return (
     <div>
+      <Heading color="teal" text="Hello World" fontSize="20px" />
+      <Heading color="blue" text="blah" fontSize="48px" />
       <DoubleDice />
       <DoubleDice />
       <DoubleDice />
-      {/*//  <ListPicker values={[1, 2, 3, 4, 5]} />
-    //  <ListPicker values={{ a: 1, b: 2 }} />*/}
-      {/*<Greeter person="Bill" from="Timmy" />
+      {/*<ListPicker values={[1, 2, 3]} />
+      <ListPicker values={["a", "b", "c"]} />
+      <Greeter person="Bill" from="Timmy" />
       <Greeter person="Ted" />
       <Greeter from="Anne" />
       <Die numSides={20} />
-      <Die numSides={6} />
+      <Die />
       <Die numSides={10} />*/}
     </div >
   );
