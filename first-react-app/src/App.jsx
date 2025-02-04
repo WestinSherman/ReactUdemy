@@ -6,26 +6,34 @@ import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
 import Heading from './Heading';
 import ColorList from './ColorList';
+import ShoppingList from './ShoppingList';
+
+const data = [
+  { item: 'eggs', quatity: 12, completed: false },
+  { item: 'milk', quatity: 1, completed: true },
+  { item: 'chicken breasts', quatity: 4, completed: false },
+  { item: 'carrots', quatity: 12, completed: true },
+];
 
 function App() {
   return (
     <div>
-      <Heading color="teal" text="Hello World" fontSize="20px" />
-      <Heading color="blue" text="blah" fontSize="48px" />
-      <DoubleDice />
-      <DoubleDice />
-      <DoubleDice />
-
-      <ColorList colors={["red", "pink", "green", "blue"]} />
-      <ColorList colors={["olive", "orangered", "spacegrey"]} />
-      {/*<ListPicker values={[1, 2, 3]} />
-      <ListPicker values={["a", "b", "c"]} />
-      <Greeter person="Bill" from="Timmy" />
-      <Greeter person="Ted" />
-      <Greeter from="Anne" />
-      <Die numSides={20} />
-      <Die />
-      <Die numSides={10} />*/}
+      <ShoppingList items={data} />
+      {/* <Heading color="teal" text="Hello World" fontSize="20px" />
+     <Heading color="blue" text="blah" fontSize="48px" />
+     <DoubleDice />
+     <DoubleDice />
+     <DoubleDice />
+     <ColorList colors={["red", "pink", "green", "blue"]} />
+     <ColorList colors={["olive", "orangered", "spacegrey"]} />
+     <ListPicker values={[1, 2, 3]} />
+     <ListPicker values={["a", "b", "c"]} />
+     <Greeter person="Bill" from="Timmy" />
+     <Greeter person="Ted" />
+     <Greeter from="Anne" />
+     <Die numSides={20} />
+     <Die />
+     <Die numSides={10} />*/}
     </div >
   );
 };
