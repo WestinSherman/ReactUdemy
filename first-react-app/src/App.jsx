@@ -7,6 +7,7 @@ import DoubleDice from './DoubleDice';
 import Heading from './Heading';
 import ColorList from './ColorList';
 import Clicker from './Clicker';
+import Form from './Form';
 
 const data = [
   { item: 'eggs', quantity: 12, completed: false },
@@ -18,6 +19,7 @@ const data = [
 function App() {
   return (
     <div>
+      <Form />
       <Clicker />
       {/*<ShoppingList items={data} />*/}
       {/* <Heading color="teal" text="Hello World" fontSize="20px" />
