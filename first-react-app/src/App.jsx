@@ -6,7 +6,7 @@ import ListPicker from './ListPicker';
 import DoubleDice from './DoubleDice';
 import Heading from './Heading';
 import ColorList from './ColorList';
-import ShoppingList from './ShoppingList';
+import Clicker from './Clicker';
 
 const data = [
   { item: 'eggs', quantity: 12, completed: false },
@@ -18,7 +18,8 @@ const data = [
 function App() {
   return (
     <div>
-      <ShoppingList items={data} />
+      <Clicker />
+      {/*<ShoppingList items={data} />*/}
       {/* <Heading color="teal" text="Hello World" fontSize="20px" />
      <Heading color="blue" text="blah" fontSize="48px" />
      <DoubleDice />
