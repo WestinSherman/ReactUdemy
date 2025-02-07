@@ -22,7 +22,9 @@ const data = [
 function App() {
   return (
     <div>
-      <ToggleCounter />
+      <Counter />
+      {/*<Toggler />*/}
+      {/*<ToggleCounter />*/}
       {/*<Counter />*/}
       {/*<Form />
       <Clicker />*/}

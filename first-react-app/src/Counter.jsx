@@ -1,8 +1,8 @@
-import { use } from "react";
 import { useState } from "react";
 export default function Counter() {
     const [num, setNum] = useState(0);
-
+    console.log("COMPONENT RENDERED AGAIN");
+    console.log(`num: ${num}`);
     const changeNum = () => {
         setNum(num + 1);
     };
