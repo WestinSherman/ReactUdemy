@@ -22,20 +22,20 @@ const data = [
 function App() {
   return (
     <div>
-      <Counter />
+      {/*<Counter />*/}
       {/*<Toggler />*/}
       {/*<ToggleCounter />*/}
       {/*<Counter />*/}
       {/*<Form />
       <Clicker />*/}
       {/*<ShoppingList items={data} />*/}
-      {/* <Heading color="teal" text="Hello World" fontSize="20px" />
+      {/*<Heading color="teal" text="Hello World" fontSize="20px" />
      <Heading color="blue" text="blah" fontSize="48px" />
      <DoubleDice />
      <DoubleDice />
-     <DoubleDice />
-     <ColorList colors={["red", "pink", "green", "blue"]} />
-     <ColorList colors={["olive", "orangered", "spacegrey"]} />
+     <DoubleDice />*/}
+      <ColorList colors={["red", "pink", "green", "blue"]} />
+      {/*<ColorList colors={["olive", "orangered", "spacegrey"]} />
      <ListPicker values={[1, 2, 3]} />
      <ListPicker values={["a", "b", "c"]} />
      <Greeter person="Bill" from="Timmy" />
