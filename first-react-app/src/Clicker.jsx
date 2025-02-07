@@ -6,13 +6,18 @@ function handleHover() {
     console.log('HOVERED!!');
 }
 
-function Clicker() {
+export default function Clicker() {
     return (
         <div>
             <p onMouseOver={handleHover} >Click The Button</p>
             <button onMouseOver={handleHover} onClick={handleClick} >Click</button>
-        </div>
+            <button
+                onClick={() =>
+                    console.log('CLICKED THE INLINE ARROW FUNCTION VERSION')
+                }
+            >
+                Inline Function (CLICK ME!)
+            </button>
+        </div >
     )
 }
-
-export default Clicker;

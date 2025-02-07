@@ -8,6 +8,7 @@ import Heading from './Heading';
 import ColorList from './ColorList';
 import Clicker from './Clicker';
 import Form from './Form';
+import Counter from './Counter';
 
 const data = [
   { item: 'eggs', quantity: 12, completed: false },
@@ -19,8 +20,9 @@ const data = [
 function App() {
   return (
     <div>
-      <Form />
-      <Clicker />
+      <Counter />
+      {/*<Form />
+      <Clicker />*/}
       {/*<ShoppingList items={data} />*/}
       {/* <Heading color="teal" text="Hello World" fontSize="20px" />
      <Heading color="blue" text="blah" fontSize="48px" />
