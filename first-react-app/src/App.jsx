@@ -10,6 +10,7 @@ import Clicker from './Clicker';
 import Form from './Form';
 import Counter from './Counter';
 import Toggler from './Toggler';
+import ToggleCounter from './ToggleCounter';
 
 const data = [
   { item: 'eggs', quantity: 12, completed: false },
@@ -21,7 +22,7 @@ const data = [
 function App() {
   return (
     <div>
-      <Toggler />
+      <ToggleCounter />
       {/*<Counter />*/}
       {/*<Form />
       <Clicker />*/}
